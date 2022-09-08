@@ -75,6 +75,11 @@ body{
     justify-content: center;
     align-items: center;
 }
+
+#number{
+    color: var(--color1) ;
+}
+
 .group{
     display: flex;
     justify-content: center;

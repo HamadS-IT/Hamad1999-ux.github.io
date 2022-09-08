@@ -12,8 +12,8 @@ CourseNo=1
 Add.addEventListener("click",(e)=>{
     e.preventDefault();
     if (CourseNo<50){
-
         courses.insertAdjacentHTML("beforeend", course.outerHTML );
+        document.querySelectorAll("#number")[CourseNo].innerHTML=CourseNo+1 +".";
         CourseNo+=1;
     }
 })
